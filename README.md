@@ -16,9 +16,16 @@ mkdir -p ~/bugbounty/h1/public/{prog1,prog2,etc}
 mkdir -p ~/bugbounty/h1/private/{prog1,prog2,etc}
 ```
 
-
-
 Once you've done that, add the `root-domains` file to each program you'd like to scan for.
+
+Also, you will need to update the locations of your wordlist files in each of the config ini files.
+
+```
+wordlist_file = /home/darkmage/SecLists/Discovery/DNS/subdomains-top1million-20000.txt
+```
+
+If you'd like to tweak `config-bruteforce.ini` and `config-alterations.ini`, I recommend it.
+
 Finally, run ./scan-passive.sh perform your first scan.
 
 ```
