@@ -5,6 +5,19 @@ This setup assumes you have a directory structure like:
 ```
 
 To get started, create the bugbounty program in your home folder, and then create subfolders for each of public and private, and then finally subfolders for each program you are working on.
+
+```
+# Examples: prog1,prog2,etc should be company names whose bug bounty program you are participating in
+
+mkdir -p ~/bugbounty/{bugcrowd,h1}/{public,private}
+mkdir -p ~/bugbounty/bugcrowd/public/{prog1,prog2,etc}
+mkdir -p ~/bugbounty/bugcrowd/private/{prog1,prog2,etc}
+mkdir -p ~/bugbounty/h1/public/{prog1,prog2,etc}
+mkdir -p ~/bugbounty/h1/private/{prog1,prog2,etc}
+```
+
+
+
 Once you've done that, add the `root-domains` file to each program you'd like to scan for.
 Finally, run ./scan-passive.sh perform your first scan.
 
