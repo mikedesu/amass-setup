@@ -2,8 +2,6 @@
 
 [![asciicast](https://asciinema.org/a/463605.svg)](https://asciinema.org/a/463605)
 
-<script id="asciicast-463605" src="https://asciinema.org/a/463605.js" async></script>
-
 -----
 
 This setup assumes you have a directory structure like:
