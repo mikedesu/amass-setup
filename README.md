@@ -1,3 +1,9 @@
+### darkmage's amass-setup
+
+[![asciicast](https://asciinema.org/a/463605.svg)](https://asciinema.org/a/463605)
+
+-----
+
 This setup assumes you have a directory structure like:
 
 ```
